@@ -1,0 +1,7 @@
+apiVersion: operators.nurlanf.github.io/v1
+kind: Odoo
+metadata:
+  name: odoo-test
+spec:
+  version: "13.0"
+  auto_backup: true
